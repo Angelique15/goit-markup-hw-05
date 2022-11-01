@@ -105,7 +105,7 @@ footer .container {
 
 .general-hover:hover.underline::after {
   visibility: visible;
-  transform-origin: left;
+  transform-origin: center;
 }
 .contact {
   color: var(--gray);
@@ -551,8 +551,10 @@ footer .container {
   position: absolute;
   width: 30px;
   height: 30px;
+  left: 490px;
   background: var(--white);
   border-radius: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   flex-direction: row-reverse;
+  cursor: pointer;
 }
