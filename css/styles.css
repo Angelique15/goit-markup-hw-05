@@ -91,6 +91,22 @@ footer .container {
   margin-right: 50px;
 }
 
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  background-color: var(--blue);
+  border-radius: 2px;
+  visibility: hidden;
+  margin-top: 76px;
+  transition: transform 0.5s ease;
+}
+
+.general-hover:hover.underline::after {
+  visibility: visible;
+  transform-origin: left;
+}
 .contact {
   color: var(--gray);
   text-decoration: none;
