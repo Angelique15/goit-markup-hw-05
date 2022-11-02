@@ -94,7 +94,7 @@ footer .container {
 .underline::after {
   content: "";
   position: absolute;
-  width: 48px;
+  width: 55px;
   height: 4px;
   background-color: var(--blue);
   border-radius: 2px;
@@ -105,7 +105,7 @@ footer .container {
 
 .general-hover:hover.underline::after {
   visibility: visible;
-  transform-origin: center;
+  transform-origin: left;
 }
 .contact {
   color: var(--gray);
@@ -525,6 +525,7 @@ footer .container {
   position: absolute;
   width: 528px;
   height: 581px;
+  margin: -260px 686px;
   background: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
