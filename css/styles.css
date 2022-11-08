@@ -520,6 +520,20 @@ footer .container {
   position: relative;
   overflow: hidden;
 }
+
+.overload {
+  position: absolute;
+  width: 372px;
+  height: 70px;
+  top: 1435px;
+  margin-top: 185px;
+  background: rgba(47, 48, 58, 0.8);
+  opacity: 80%;
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
 /*estilos de la ventana modal*/
 .pop-up-modal {
   position: fixed;
